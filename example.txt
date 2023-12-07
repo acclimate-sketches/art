@@ -1,2 +1,0 @@
-12345
-This is the new content for the file.
