@@ -1,0 +1,277 @@
+
+::-webkit-scrollbar {
+    width: 7px;
+    
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #141517; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #c0a05f; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #caa04b; 
+  }
+body{
+    background-color: #141517;
+  }
+.nav {
+    min-height: 60px;
+    background-color: #141517;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.nav h1 {
+    color: #c0a05f;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.nav h1 img{
+    width: 55px;
+}
+
+.nav_contact_btn {
+    background: none;
+    border: 1px solid #c0a05f;
+    color: #c0a05f;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Archivo', sans-serif;
+    transition: all 0.5s ease;
+}
+
+.nav_contact_btn:hover {
+    color: white;
+    background-color: #c0a05f;
+    border-color: #caa04b;
+}
+
+.nav_tabs {
+    display: flex;
+    padding-right: 15px;
+}
+
+.nav_tab {
+    color: white;
+    font-size: 17px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+}
+
+
+.nav_tab:hover {
+    color: #c0a05f;
+}
+
+.nav_tab i {
+    font-size: 19px;
+}
+
+.my_crousel {
+    /* border-top: 1px solid grey; */
+    height: 60vh;
+    min-height: 360px;
+    max-height: 600px;
+    background-color: #141517;
+    display: flex;
+
+}
+
+.my_crousel_content {
+    font-size: 30px;
+    color: #c0a05f;
+    width: 60%;
+    padding: 50px 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.my_crousel_img {
+    width: 100%;
+    text-align: end;
+}
+
+.my_crousel_img img {
+    height: 100%;
+}
+.my_heading_1{
+    text-align: center;
+    color: #c0a05f;
+    border-top: 1px solid #c0a05f;
+    border-bottom: 1px solid #c0a05f;
+    background-color: #141517;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.content {
+    background-color: #141517;
+    min-height: 40vh;
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 220px;
+    background: none;
+    border: 1px solid #c0a05f;
+    padding: 7px;
+    margin: 10px 20px;
+}
+
+.card button {
+    margin-top: 25px;
+    background: none;
+    border: 1px solid #c0a05f;
+    color: #c0a05f;
+    font-size: 20px;
+    padding: 2px 0;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: 'Archivo', sans-serif;
+    transition: all 0.5s ease;
+}
+
+.card button:hover {
+    background-color: #c0a05f;
+    border-color: #caa04b;
+    color: white;
+}
+
+.model_b_close_btn {
+    background-color: #c0a05f;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.model_b_close_btn:hover {
+    background-color: #caa04b;
+}
+
+footer{
+    background-color: #141517; 
+    text-align: center; 
+    border: 1px solid #c0a05f;
+    color: #caa04b;
+    font-size: 25px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    padding: 5px;
+
+}
+footer img{
+    width: 30px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .my_crousel_content {
+        width: 110%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    footer,
+    body,
+    .my_heading_1,
+    .content,
+    .nav {
+        background-color: #1e1e1c;
+    }
+    .nav{
+        padding-left: 3px;
+    }
+    .nav h1 {
+        font-size: 22px;
+    }
+    .nav h1 img{
+        width: 45px;
+    }
+    .my_crousel_img img {
+        content: url("/statics/images/crousel_2.jpg");
+        height: 100%;
+    }
+
+    .nav_tabs {
+        display: none;
+    }
+    .nav_tab{
+        color: #caa04b;
+    }
+    .my_crousel {
+        height: 35vh;
+        min-height: 200px;
+        background-color: #1e1e1c;
+    }
+
+    .my_crousel_content {
+        font-size: 18px;
+        padding: 30px 0px 30px 15px;
+    }
+
+    .card {
+        width: 150px;
+    }
+
+    .nav_contact_btn {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+#main_see{
+    display: none;
+}
+
+#my_spinner {
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#my_spinner img {
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
