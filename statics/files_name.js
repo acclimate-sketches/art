@@ -1,1 +1,1 @@
-files_names = []
+files_names = [p_2.jpeg,]
