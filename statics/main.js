@@ -21,17 +21,13 @@ setTimeout(function () {
         backDelay: 4000,
     });
     for (let item of files_names) {
-    console.log(item);
-    
     let content = `
         <div class="card">
             <img src="statics/images/pr/${item}" alt="">
             <button onclick="contact_modal('0')">GET</button>
         </div>
     `;
-    
-    var myDiv = document.getElementById("content");
-    myDiv.innerHTML += content;
+    document.getElementById("content").innerHTML += content;
 }
 
 }, 2500);
