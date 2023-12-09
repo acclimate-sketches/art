@@ -20,17 +20,20 @@ setTimeout(function () {
         typeSpeed: 18,
         backDelay: 4000,
     });
-    for (var item of files_names) {
-        console.log(item)
-            content = `
-            <div class="card">
-                <img src="statics/images/pr/${item}" alt="">
-                <button onclick="contact_modal('0')">GET</button>
-            </div>
-            `
-            var myDiv = document.getElementById("content");
-             myDiv.innerHTML += content;
-        }
+    for (let item of files_names) {
+    console.log(item);
+    
+    let content = `
+        <div class="card">
+            <img src="statics/images/pr/${item}" alt="">
+            <button onclick="contact_modal('0')">GET</button>
+        </div>
+    `;
+    
+    var myDiv = document.getElementById("content");
+    myDiv.innerHTML += content;
+}
+
 }, 2500);
 
 
