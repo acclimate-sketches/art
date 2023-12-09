@@ -3,7 +3,7 @@ setTimeout(function () {
     for (let item of files_names) {
     let content = `
         <div class="card">
-            <img src="statics/images/pr/${item}" alt="" style="max-height: 205px;">
+            <img src="statics/images/pr/${item}" alt="">
             <button onclick="contact_modal('0')">GET</button>
         </div>
     `;
