@@ -1,4 +1,14 @@
 setTimeout(function () {
+
+    for (let item of files_names) {
+    let content = `
+        <div class="card">
+            <img src="statics/images/pr/${item}" alt="">
+            <button onclick="contact_modal('0')">GET</button>
+        </div>
+    `;
+    document.getElementById("content").innerHTML += content;
+        }
     document.querySelector('#my_spinner').style.display = 'none';
     document.querySelector('#main_see').style.display = 'block';
 
@@ -20,15 +30,7 @@ setTimeout(function () {
         typeSpeed: 18,
         backDelay: 4000,
     });
-    for (let item of files_names) {
-    let content = `
-        <div class="card">
-            <img src="statics/images/pr/${item}" alt="">
-            <button onclick="contact_modal('0')">GET</button>
-        </div>
-    `;
-    document.getElementById("content").innerHTML += content;
-}
+    
 
 }, 2500);
 
