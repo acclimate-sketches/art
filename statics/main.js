@@ -20,6 +20,15 @@ setTimeout(function () {
         typeSpeed: 18,
         backDelay: 4000,
     });
+    for (var item of files_names) {
+            content = `
+            <div class="card">
+                <img src="statics/images/pr/${item}" alt="">
+                <button onclick="contact_modal('0')">GET</button>
+            </div>
+            `
+            document.getElementById("content").innerHTML += content
+        }
 }, 2500);
 
 
