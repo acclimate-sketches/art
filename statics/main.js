@@ -1,6 +1,4 @@
-setTimeout(function () {
-
-    for (let item of files_names) {
+for (let item of files_names) {
     let content = `
         <div class="card">
             <img src="statics/images/pr/${item}" alt="">
@@ -8,7 +6,9 @@ setTimeout(function () {
         </div>
     `;
     document.getElementById("content").innerHTML += content;
-        }
+};
+setTimeout(function () {
+
     document.querySelector('#my_spinner').style.display = 'none';
     document.querySelector('#main_see').style.display = 'block';
 
