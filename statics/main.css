@@ -132,6 +132,9 @@ body{
     padding: 7px;
     margin: 10px 20px;
 }
+.card img{
+    max-height: 203px;
+}
 
 .card button {
     margin-top: 25px;
@@ -234,6 +237,9 @@ footer img{
 
     .card {
         width: 150px;
+    }
+    .card img{
+        max-height: 133px;
     }
 
     .nav_contact_btn {
