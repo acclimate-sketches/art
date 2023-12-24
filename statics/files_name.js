@@ -13,7 +13,6 @@ files_names = [
 'pr_17.jpg',
 'pr_18.jpg',
 'pr_19.jpg',
-'pr_20.jpg',
 'pr_21.jpg',
 'pr_22.jpg',
 'pr_23.jpg',
