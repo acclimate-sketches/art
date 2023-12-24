@@ -1,4 +1,5 @@
-files_names = ['pr_5.jpeg',
+files_names = ,
+'pr_5.jpeg',
 'pr_6.jpg',
 'pr_7.jpg',
 'pr_8.jpg',
@@ -19,6 +20,5 @@ files_names = ['pr_5.jpeg',
 'pr_23.jpg',
 'pr_24.jpg',
 'pr_25.jpg',
-'pr_26.jpg',
-'pr_905959.jpg',
+'pr_905959.jpg',
 ]
