@@ -14,4 +14,5 @@ files_names = [
 'pr_21.jpg',
 'pr_23.jpg',
 'pr_24.jpg',
+'pr_559654.png',
 ]
