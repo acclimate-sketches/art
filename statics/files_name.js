@@ -1,5 +1,4 @@
 files_names = [
-'pr_15.jpg',
 'pr_16.jpg',
 'pr_17.jpg',
 'pr_18.jpg',
