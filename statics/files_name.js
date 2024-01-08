@@ -8,4 +8,5 @@ files_names = [
 'pr_835447.jpg',
 'pr_517345.jpg',
 'pr_747703.jpg',
+'pr_117431.jpg',
 ]
